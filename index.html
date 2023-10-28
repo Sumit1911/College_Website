@@ -6,6 +6,7 @@
     <title>NIT Srinagar</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="slider.css">
 </head>
 <body>
     <div class="container1">
@@ -57,7 +58,35 @@
     </div>
     <div class="campus">
         <p class="campus-header">Campus News</p>
+        <section class="nit_srinagar_slider">
+            <div class="image-slider" data-slider>
+                <button class="prev" data-image-slider-button="prev">&#10594</button>
+                <button class="next" data-image-slider-button="next">&#10596</button>
+    
+                <ul slides_of_data>
+                    <li class="slide" data-active>
+                        <img src="images/triboindia_2023.png" alt="Slide 1">
+                    </li>
+                    <li class="slide" data-active>
+                        <img src="images/directorpresident.JPG" alt="Slide 2">
+                    </li>
+                    <li class="slide" data-active>
+                        <img src="images/Ganesh_22092023.png" alt="Slide 3">
+                    </li>
+                    <li class="slide" data-active>
+                        <img src="images/klashvatra.png" alt="Slide 4">
+                    </li>
+                    <li class="slide" data-active>
+                        <img src="images/hindi_rajbasha_parliament.png" alt="Slide 5">
+                    </li>
+                    <li class="slide" data-active>
+                        <img src="images/SynergyOfEnergies.png" alt="Slide 6">
+                    </li>
+                </ul>
+            </div>
+        </section>
     </div>
+    
     <div class="academic">
         <p class="academic-header">Academics</p>
         <div class="academic-area">
@@ -81,5 +110,7 @@
     <div class="upcoming-event">
         <p class="upcoming-event-header">Academics</p>
     </div>
+    <script src="slider.js"></script>
+    
 </body>
 </html>
