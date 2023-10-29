@@ -186,10 +186,12 @@ ul li a:hover::before {
 .about-more:hover {
   opacity: 0.8;
 }
-.campus {
-  height: 150vh;
-  width: 100%;
-  text-align: center;
+.campus {/* changes made :yash */
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  /* text-align: center; */
   background-color: #f4f4f4;
 }
 .academic-header {
