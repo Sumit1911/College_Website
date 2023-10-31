@@ -243,14 +243,19 @@ ul li a:hover::before {
   height: 500px;
   width: 500px;
 }
-.director-more {
+.readMoreBtn{
   background-color: rgb(100, 224, 224);
   border: none;
+  font-size: x-large;
   border-radius: 8px;
   color: white;
   width: 15vw;
   height: 7vh;
   margin: 5% 0%;
+}
+.readMoreBtn:hover{
+  cursor: pointer;
+  transform: scale(1.07);
 }
 .director-more p {
   text-align: center;

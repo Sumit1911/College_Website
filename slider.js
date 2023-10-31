@@ -36,3 +36,27 @@ buttons.forEach(button => {
 
 
 startAutoSlide();
+
+
+
+
+//Readmore Button
+
+var readMoreBtn = document.querySelector('.readMoreBtn');
+var hiddenContent = document.querySelector('.hide');
+
+
+hiddenContent.style.display = 'none';
+
+
+readMoreBtn.addEventListener('click',()=>{
+    
+    if (hiddenContent.style.display === 'none' || hiddenContent.style.display === '') {
+        hiddenContent.style.display = 'block';
+        readMoreBtn.textContent = 'Read Less'; 
+    } else {
+        hiddenContent.style.display = 'none';
+        readMoreBtn.textContent = 'Read More'; 
+    }
+});
+
