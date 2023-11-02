@@ -1,10 +1,10 @@
 *,*::before,*::after{
     box-sizing: border-box;
 }
-body{
+/* body{
     margin: 0;
     padding: 0;
-}
+} */
 img{
     position: absolute;
     width: 99%;
@@ -15,7 +15,7 @@ img{
     height: 100vh;
     position: relative;
 }
-.image-slider>ul{
+.image-slider>ul{ 
     margin: 0;
     padding: 0;
     list-style: none;
