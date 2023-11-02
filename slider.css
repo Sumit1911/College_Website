@@ -15,7 +15,7 @@ img{
     height: 100vh;
     position: relative;
 }
-.image-slider>ul{
+.image-slider>ul{ 
     margin: 0;
     padding: 0;
     list-style: none;
