@@ -7,3 +7,6 @@ by-Yash 2:02 Am 29-10-23
 Changes Made:Readmore of director section is now functioning...Removed existing div and some css kindly check if any bugs spotted due to change.
 Note:I have added the js of Readmore in Slider.js. Kindly add js code within this file we might change its name later as common js file
 by-Yash 19:22 31-10-2023
+
+
+Changes Made: Added Slow Typing animation
