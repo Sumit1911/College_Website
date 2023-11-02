@@ -41,7 +41,7 @@ body::-webkit-scrollbar-thumb {
   font-weight: bold;
 }
 .btn {
-  background-color: rgb(240, 228, 245);
+  background-color: rgb(237, 236, 237);
   border-radius: 15px;
   color: white;
   opacity: 0.8;
@@ -135,7 +135,7 @@ ul li a:hover::before {
 }
 .headline {
   text-align: center;
-  margin: 160px 50px;
+  margin: 85px 50px;
   font-size: 7vw;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
@@ -157,7 +157,7 @@ ul li a:hover::before {
   color: white;
   font-size: 1.7vw;
   /* padding-top: 6px; */
-  margin-top: 85px;
+  margin-top: 173px;
   display: inline-flex;
   cursor: pointer;
   /* position: fixed; */
@@ -218,7 +218,7 @@ ul li a:hover::before {
 .campus {/* changes made :yash */
   margin: 0;
   padding: 0;
-  height: 140vh;
+  height: 150vh;
   width: 100%;
   background-color: #f4f4f4;
   top: 0;
@@ -238,7 +238,28 @@ ul li a:hover::before {
 }
 .campus-header p {
   margin-top: 50px;
+
 }
+.campus-more {
+  background-color: rgb(100, 224, 224);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  width: 25vw;
+  height: 7vh;
+  margin: 3% 39%;
+}
+.campus-more p {
+  font-size: 1.6vw;
+  font-weight: 550;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+}
+.campus-more:hover {
+  opacity: 0.8;
+}
+
 .director-section {
   display: flex;
   height: 90vh;
@@ -279,8 +300,8 @@ ul li a:hover::before {
 .director-img img{
   margin-top: 50px;
   margin-left: 50px;
-  height: 500px;
-  width: 500px;
+  height: 70vh;
+  width: 35vw;
 }
 .readMoreBtn{
   background-color: rgb(100, 224, 224);
@@ -431,6 +452,7 @@ ul li a:hover::before {
     font-size: 5vw;
     font-weight: bold;
   }
+  
 }
 /* Typing Animation */
 .headline h2{
