@@ -58,24 +58,31 @@ a {
 a:hover {
   opacity: 1
 }
+/* .fa {
+  font-weight: bold;
+} */
 .fa-facebook {
-  background: #fff;
-  color: black;
+  /* background: #fff; */
+  color: #3B5998;
 }  
 .fa-twitter {
-  background: #fff;
-  color: black;
+  /* background: #fff; */
+  color: #55ACEE;
 }  
 .fa-youtube {
-  background: #fff;
-  color: black;
+  /* background: #fff; */
+  color: #bb0000;
+}
+.fa-instagram {
+  /* background: #125688; */
+  color: #125688;
 }
 /**/
 .container-header2 {
   height: 80px;
   width: 100%;
   /* background-color: whitesmoke; */
-  position: sticky;
+  /* position: fixed; */
 }
 .logo {
   padding: 0 120px;
@@ -104,8 +111,8 @@ ul li a {
   position: relative;
 }
 ul li a:hover {
-  font-weight: lighter;
-  color: rgb(100, 224, 224);
+  /* font-weight: lighter; */
+  /* color: rgb(100, 224, 224); */
 }
 ul li a::before {
   margin-top: -10px;
