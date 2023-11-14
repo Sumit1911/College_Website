@@ -462,13 +462,15 @@ ul li a:hover::before {
   
 }
 /* Typing Animation */
+
 .headline h2{
   opacity: 0.9;
   overflow: hidden;
   white-space: nowrap;
   margin: 0 auto;
-  animation: typing 5s steps(40), blink-caret 0.75s step-end infinite;
+  animation:typing 5s steps(40), blink-caret 0.75s step-end infinite;
 }
+
 @keyframes typing {
   from {
     width: 0;
@@ -487,6 +489,7 @@ ul li a:hover::before {
     border-color: #000;
   }
 }
+
 
 
 
