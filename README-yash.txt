@@ -10,3 +10,8 @@ by-Yash 19:22 31-10-2023
 
 
 Changes Made: Added Slow Typing animation
+
+
+Changes made: slider.css added media query for small screen
+new issue ...at small screen images shifts to left
+by Yash 11:45 14-11-2023
