@@ -69,15 +69,12 @@ img {
 }
 
 /* Add a media query to adjust styles for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     img {
+        /* display: block; */
         width: 100%;
-        height: auto;
-        left: 0; /* Ensure the image stays centered */
-    }
-
-    .image-slider {
-        height: auto;
+        /* height: auto; */
+        left: 0; 
     }
 
     .prev, .next {

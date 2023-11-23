@@ -112,10 +112,7 @@ a:hover {
   border-radius: 8px;
   /* position: relative; */
 }
-.container-header2 ul li a:hover {
-  /* font-weight: lighter; */
-  /* color: rgb(100, 224, 224); */
-}
+
 .container-header2 ul li a::before {
   margin-top: -10px;
   content: "";
@@ -531,6 +528,9 @@ a:hover {
 } */
 
 @media (max-width: 600px) {
+  .container1 {
+    height: 50vh;
+  }
   .container-header2 {
     background-color: rgb(100, 224, 224);
   }
@@ -563,7 +563,7 @@ a:hover {
   .container-header2 ul li  {
     display: block;
     margin: 50px 0;
-    line-height: 0px;
+    line-height: 10px;
   }
   .container-header2 ul li a {
     font-size: 20px;
@@ -582,19 +582,18 @@ a:hover {
   }
   .foot {
     font-size: 4vw;
-    margin-top: 425px;
+    margin-top: 64.5vh;
   }
   .about {
     height: 70vh;
     width: 100%;
   }
   .about-header {
-    font-size: 8vw;
+    font-size: 10vw;
   }
   .about-content {
-    font-size: 3vw;
-    margin-left: 7%;
-    margin-right: 10%;
+    text-align: center;
+    font-size: 4vw;
     margin-top: -4%;
     padding: 10px;
   }
@@ -603,27 +602,43 @@ a:hover {
     border: none;
     border-radius: 8px;
     color: white;
-    width: 45vw;
-    height: 6vh;
-    margin: 5% 30%;
+    width: 50vw;
+    height: 7vh;
+    margin: 5% 25%;
   }
   .about-more p {
-    font-size: 3vw;
+    font-size: 4vw;
     font-weight: 550;
-    padding: 12px 20px;
+    padding: 10px 15px;
     cursor: pointer;
   }
 
+  .campus {/* changes made :yash */
+    height: 140vh;
+  }
+  .campus-header {
+    font-size: 10vw;
+  }
+  .campus-more {
+    width: 50vw;
+    height: 7vh;
+    margin: 5% 25%;
+  }
+  .campus-more p {
+    font-size: 4vw;
+    font-weight: 550;
+    padding: 10px 20px;
+  }
   .director-section {
     text-align: center;
     display: flex;
     flex-direction: rows;
-    height: 120vh;
+    height: 90vh;
     position: relative; 
   }
   .director-about {
     width: 100%;
-    margin-top: 100%;
+    margin-top: 110%;
     text-align: center;
     margin-left: -65vw;
     /* margin-right: 180px; */
@@ -642,60 +657,60 @@ a:hover {
   }
   .director-img {
     width: 100%;
+    
     /* padding: 10px; */
   }
   .director-img img{
-    margin-top: 50px;
-    /* margin-left: 50px; */
-    height: 60vh;
-    width: 82vw;
+    margin-top: 20vw;
+    margin-right: 30vw;
+    height: 40vh;
+    width: 75vw;
     border-radius: 8px;
   }
   .readMoreBtn{
-    background-color: rgb(100, 224, 224);
-    border: none;
     font-size: 5vw;
-    border-radius: 8px;
-    color: white;
     width: 35vw;
-    height: 7vh;
+    height:6vh;
     margin: 5% 7%;
     padding: 2% 3%;
     text-align: center;
   }
   .academic {
-    height: 255vh;
+    height: 220vh;
   }
   .academic-content {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    
   }
   .undergraduate p {
     margin-bottom: 5vh;
-    font-size: 4vw;
-    margin-left: -15vw;
+    font-size: 5vw;
+    margin-left: -20vw;
   }
   .right-arrow {
-    font-size: 4vw;
+    font-size: 5vw;
   }
 
   .academic-header {
     font-size: 10vw;
   }
   .academic-content img {
-    margin: 0% 20%;
-    height: 60vh;
-    width: 60vw;
+    margin: 0% 10%;
+    height: 50vh;
+    width: 80vw;
     border-radius: 8px;
   }
   .academic-more {
-    margin-left: 25vw;
-    text-align: center;
     width: 50vw;
     height: 6vh;
+    margin: 4% 26%;
+    padding: 8px 0px 0px 0px;
   }
   .academic-more p {
-    font-size: 3vw;
+    text-align: center;
+    font-size: 4vw;
+    padding: 5px 10px 0px 10px;
   }
   .People-count {
     height: 60vh;
@@ -722,20 +737,32 @@ a:hover {
   }
 
   .footer {
-    height: 135vh;
+    height: 128vh;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-  }
-  .section-1 {
-
-    margin-left: 10vw;
+    grid-template-rows: 1.3fr 1fr 1fr 1fr;
   }
   .section-1 img{
+    margin-left: 38%;
+  }
+  .section-1-content {
+    text-align: center;
+    margin-top: 10vh;
+
+  }
+  .section-2 {
+    margin-left: 2vw;
+  }
+  .section-3 {
+    margin-left: 2vw;
+  }
+  .section-4 {
     margin-left: 2vw;
   }
   .footer-last {
     text-align: center;
   }
+
+  
 }
 
 /* Typing Animation */
